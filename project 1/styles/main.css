@@ -28,4 +28,11 @@ h1 {
     background-color: grey;
     margin: 250px 50px 100px 50px;
     padding: 50px;
+    border-radius: 3px; 
+}
+hr {
+    align-items: center;
+    margin-top: 150px;
+    width: 500px;
+    height: 10px;
 }

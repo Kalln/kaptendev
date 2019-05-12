@@ -31,7 +31,11 @@
                     <a href="_blank">Book here!</a>
                 </p>
         </div>
+        <div id="line">
+            <hr>
+        </div>
         <div id="comment">
+            
             <p>
                 This page is created with the help of JS and is the first website I made that used JS.<br><br>
 
@@ -45,15 +49,21 @@
                 many rooms are available in total. it returns the amount of rooms. <br><br>
 
                 I then created the objects with the help of the created function that i described above. <br>
+                <pre>
+                <code>
                 var Quay = new hotel('Quay', 40, 25);<br>
                 var Park = new hotel('Park', 140, 77); <br><br>
+                </code>
+                </pre>
 
                 I then replaced the values in the html with the help of this: <br>
+                <code>
                 var elName = document.getElementById('hotel_name');<br>
                 elName.textContent = Park.name;<br><br>
 
                 var elRooms = document.getElementById('hotel_rooms');<br>
                 elRooms.textContent = Park.checkAvailability();<br><br>
+                </code>
 
                 And the same with the Quay hotel.<br><br>
                 After all this I did the appropiete things with css to get the layout I wanted.
