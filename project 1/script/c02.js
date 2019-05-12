@@ -18,3 +18,9 @@ elName.textContent = Park.name;
 
 var elRooms = document.getElementById('hotel_rooms');
 elRooms.textContent = Park.checkAvailability();
+
+var elName2 = document.getElementById('hotel_name2');
+elName2.textContent = Quay.name;
+
+var elRooms2 = document.getElementById('hotel_rooms2');
+elRooms2.textContent = Quay.checkAvailability();
